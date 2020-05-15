@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Payment</title>
+        <link rel="stylesheet" href="paystyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="..\index.html">Home</a>
+              <a href="lobby.html">Lobby</a>
+              <a href="#">Live Gameplay</a>
+              <a href="contact.html"> Team</a>
+              <a href="howto.html" >How To & Rules</a>
+            </div>
+          </div>
+          
+          <span style="font-size:60px;cursor:pointer;color: rgb(231, 40, 15))0, 162, 255)0, 162, 255);margin-left: 15px;" onclick="openNav()">&#9776MENU</span>
+          <!--nav bar div end and nav bar script start-->
+          <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+          </script>
+        <div class="payment">
+            <h1 class="h">Payment Gateway</h1>
+
+        </div>
+       
+            
+       <div class="text-center" style="transition: transform .2s;">
+        <img src="output.jpg" class="rounded" alt="...">
+        <h1>xyz@upi</h1>
+        <h2>Scan this QR and pay the exact amount </h2>
+        <img src="anima.gif" alt="" srcset="">
+        <h2>After Payment Click Here</h2>
+        <button onclick="window.location.href = 'login.html';" class="click"> Click Here</button>
+      </div>
+        
+
+    </body>
+</html>

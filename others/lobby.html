@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Lobby</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            var pass;
+            var pass1="123456";
+            pass=prompt('Enter the Password:-');
+            if(pass==pass1){
+                alert('You Successfully Enter Click ok ');
+            }
+            else{
+                window.location="incurrectpassword.html";
+            }
+    
+            </script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="tt">
+                <p id="mainlobby">LOBBY</p>
+                <p id="pass"> Room Id:-123456 <br>
+                Password:-****</p>
+                <h1 id="plz">match will start shortly <br>
+                     plz wait in the room until the match started  </h1>
+                <img src="ani.gif" id="animation" alt="" srcset="">
+                
+        </div>
+            <div class="v-c">
+        <video autoplay loop muted class="videow">
+            <source src="video.mp4" type="video/mp4"> 
+        </video>
+    </div>
+
+        
+    </div>
+
+    </body>
+</html>
